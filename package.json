@@ -1,0 +1,27 @@
+{
+  "name": "windows-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager . app --win --out dist --arch=x64 --version 1.7.5 --overwrite --ignore=node_modules",
+    "dev":".\\node_modules\\.bin\\electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tortoise1992/windows-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tortoise1992/windows-app/issues"
+  },
+  "homepage": "https://github.com/tortoise1992/windows-app#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-packager": "^8.7.2",
+    "gulp": "^3.9.1"
+  }
+}
